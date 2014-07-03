@@ -1,4 +1,4 @@
-# gulp-pxtorem
+# gulp-pxtorem [![NPM version](https://badge.fury.io/js/gulp-pxtorem.svg)](http://badge.fury.io/js/gulp-pxtorem)
 
 This is a Gulp plugin for [pxtorem](https://github.com/cuth/pxtorem).
 
