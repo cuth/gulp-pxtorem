@@ -1,0 +1,30 @@
+{
+    "name": "gulp-pxtorem",
+    "description": "A gulp plugin for pxtorem",
+    "version": "0.0.0",
+    "author": "Jonathan Cuthbert <jon@cuth.net> (http://cuth.net)",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/cuth/gulp-pxtorem"
+    },
+    "bugs": "https://github.com/cuth/gulp-pxtorem/issues",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha"
+    },
+    "dependencies": {
+        "pxtorem": "~0.0.1",
+        "through2": "~0.5.1",
+        "gulp-util": "~2.2.19"
+    },
+    "devDependencies": {
+        "mocha": "*"
+    },
+    "keywords": [
+        "css",
+        "parser",
+        "postproccessor",
+        "rem",
+        "gulp"
+    ]
+}
