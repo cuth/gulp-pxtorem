@@ -1,3 +1,11 @@
+/*
+ *  To test install mocha:
+ *      npm install -g mocha
+ *  
+ *  Run mocha:
+ *      mocha
+ */
+
 var assert = require('assert');
 var gutil  = require('gulp-util');
 var pxtorem = require('./');

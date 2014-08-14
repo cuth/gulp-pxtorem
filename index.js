@@ -1,8 +1,9 @@
 var gutil   = require('gulp-util');
 var through = require('through2');
+var postcss = require('postcss');
 var pxtorem  = require('pxtorem');
 
-module.exports = function (options) {
+module.exports = function (options, postcssOptions) {
     return through.obj(function(file, enc, cb) {
         if (file.isNull()) {
             this.push(file);
@@ -15,7 +16,7 @@ module.exports = function (options) {
         }
 
         try {
-            file.contents = new Buffer(pxtorem(file.contents.toString(), options));
+            file.contents = new Buffer(postcss(pxtorem(options)).process(file.contents.toString(), postcssOptions).css);
         } catch (err) {
             this.emit('error', new gutil.PluginError('gulp-pxtorem', err));
         }
