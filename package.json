@@ -1,7 +1,7 @@
 {
     "name": "gulp-pxtorem",
     "description": "A gulp plugin for pxtorem",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "author": "Jonathan Cuthbert <jon@cuth.net> (http://cuth.net)",
     "repository": {
         "type": "git",
