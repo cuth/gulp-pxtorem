@@ -1,28 +1,32 @@
 {
-    "name": "gulp-pxtorem",
-    "description": "A gulp plugin for pxtorem",
-    "version": "0.1.1",
-    "author": "Jonathan Cuthbert <jon@cuth.net> (http://cuth.net)",
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/cuth/gulp-pxtorem"
-    },
-    "bugs": "https://github.com/cuth/gulp-pxtorem/issues",
-    "main": "index.js",
-    "scripts": {
-        "test": "mocha"
-    },
-    "dependencies": {
-        "postcss": "^2.1.0",
-        "pxtorem": "^1.0.0",
-        "through2": "~0.5.1",
-        "gulp-util": "~2.2.19"
-    },
-    "keywords": [
-        "css",
-        "parser",
-        "postproccessor",
-        "rem",
-        "gulp"
-    ]
+  "name": "gulp-pxtorem",
+  "description": "A gulp plugin for pxtorem",
+  "version": "0.1.1",
+  "author": "Jonathan Cuthbert <jon@cuth.net> (http://cuth.net)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cuth/gulp-pxtorem"
+  },
+  "bugs": "https://github.com/cuth/gulp-pxtorem/issues",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "postcss": "^2.1.0",
+    "pxtorem": "^1.0.0",
+    "through2": "~0.5.1",
+    "gulp-util": "~2.2.19"
+  },
+  "keywords": [
+    "css",
+    "parser",
+    "postproccessor",
+    "rem",
+    "gulp",
+    "gulpplugin"
+  ],
+  "devDependencies": {
+    "gulp-sourcemaps": "^1.1.1"
+  }
 }
