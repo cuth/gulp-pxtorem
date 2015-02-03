@@ -1,7 +1,7 @@
 /**
  *  To test install mocha:
  *      npm install -g mocha
- *  
+ *
  *  Run mocha:
  *      mocha
  */
@@ -13,7 +13,7 @@ var gutil  = require('gulp-util');
 var pxtorem = require('./');
 
 describe('gulp-pixrem', function() {
-    it('should postprocess CSS using Pxtorem with the default pixel root value', function(done) {
+    it('should postprocess CSS using gulp-pxtorem with the default pixel root value', function(done) {
         var stream = pxtorem();
 
         stream.on('data', function(data) {
@@ -26,7 +26,7 @@ describe('gulp-pixrem', function() {
         }));
     });
 
-    it('should postprocess CSS using Pxtorem with a custom pixel root value', function(done) {
+    it('should postprocess CSS using gulp-pxtorem with a custom pixel root value', function(done) {
         var stream = pxtorem({
             root_value: 10
         });

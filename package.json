@@ -1,7 +1,7 @@
 {
   "name": "gulp-pxtorem",
-  "description": "A gulp plugin for pxtorem",
-  "version": "0.1.1",
+  "description": "A gulp plugin for postcss-pxtorem",
+  "version": "1.0.0",
   "author": "Jonathan Cuthbert <jon@cuth.net> (http://cuth.net)",
   "repository": {
     "type": "git",
@@ -13,10 +13,10 @@
     "test": "mocha"
   },
   "dependencies": {
-    "postcss": "^2.1.0",
-    "pxtorem": "^1.0.0",
-    "through2": "~0.5.1",
-    "gulp-util": "~2.2.19"
+    "gulp-util": "^3.0.3",
+    "postcss": "^4.0.3",
+    "postcss-pxtorem": "^2.0.1",
+    "through2": "^0.6.3"
   },
   "keywords": [
     "css",

@@ -3,12 +3,12 @@
 var gutil = require('gulp-util');
 var through = require('through2');
 var postcss = require('postcss');
-var pxtorem = require('pxtorem');
+var pxtorem = require('postcss-pxtorem');
 
 var PLUGIN_NAME = 'gulp-pxtorem';
 
 module.exports = function (options, postcssOptions) {
-    
+
     return through.obj(function(file, enc, cb) {
         if (file.isNull()) {
             this.push(file);
