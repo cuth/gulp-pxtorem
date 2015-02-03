@@ -11,7 +11,7 @@ npm install gulp-pxtorem --save-dev
 ### Example
 
 ```js
-var pxtorem = require('gulp-pixrem');
+var pxtorem = require('gulp-pxtorem');
 
 gulp.task('css', function() {
     gulp.src('css/**/*.css')
