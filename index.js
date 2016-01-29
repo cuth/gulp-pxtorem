@@ -9,7 +9,7 @@ var PLUGIN_NAME = 'gulp-pxtorem';
 
 module.exports = function (options, postcssOptions) {
 
-    return through.obj(function(file, enc, cb) {
+    return through.obj(function (file, enc, cb) {
         if (file.isNull()) {
             this.push(file);
             return cb();
