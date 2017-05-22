@@ -28,6 +28,7 @@
     "gulpplugin"
   ],
   "devDependencies": {
-    "gulp-sourcemaps": "^1.6.0"
+    "gulp-sourcemaps": "^1.6.0",
+    "mocha": "^3.4.1"
   }
 }
